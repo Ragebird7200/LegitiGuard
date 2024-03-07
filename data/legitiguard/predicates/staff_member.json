@@ -1,0 +1,26 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "team":"A_admin"
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "team":"M_mod"
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "team":"0_owner"
+            }
+        }
+    ]
+}

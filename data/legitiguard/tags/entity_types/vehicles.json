@@ -1,0 +1,13 @@
+{
+    "values":[
+        "minecart",
+        "tnt_minecart",
+        "chest_minecart",
+        "hopper_minecart",
+        "furnace_minecart",
+        "spawner_minecart",
+        "command_block_minecart",
+        "boat",
+        "chest_boat"
+    ]
+}
