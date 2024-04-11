@@ -4,4 +4,4 @@
 kill @e[type=#legitiguard:vehicles]
 
 # Reset Score
-scoreboard players set .vehicleTimer lg.Values 0
+scoreboard players set #vehicleTimer lg.Values 0

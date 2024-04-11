@@ -11,4 +11,4 @@ execute unless entity @s[predicate=legitiguard:staff_member] run function legiti
     execute if score .creativeStaffOnly lg.Values matches 1 unless entity @s[predicate=legitiguard:staff_member] run function legitiguard:creative_mode/revert_creative
 
 # Adventure Blocks
-execute if score .removeAdventureBlocks lg.Values matches 1 run function legitiguard:adventure_blocks/remove_adventure_blocks
+execute unless score .removeCanPlaceOn lg.Values matches 0 unless score .removeCanDestroy lg.Values matches 0 run function legitiguard:adventure_blocks/remove_adventure_blocks
