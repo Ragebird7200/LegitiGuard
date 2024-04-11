@@ -12,3 +12,4 @@
     scoreboard players add .permanentCreative lg.Values 0
     scoreboard players add .vehicleTicks lg.Values 0
     scoreboard players add .creativeStaffOnly lg.Values 0
+    scoreboard players add .removeAdventureBlocks lg.Values 0
