@@ -1,7 +1,7 @@
 #> legitiguard:creative_mode/revert_creative
 
 # Tp to spawn
-spreadplayers 0 0 0 1 false @s
+spreadplayers 0 0 0 1 under 1 false @s
 
 # Gamemode adventure
 gamemode adventure @s

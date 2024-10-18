@@ -15,3 +15,5 @@
     scoreboard players add .creativeStaffOnly lg.Values 0
     scoreboard players add .removeCanPlaceOn lg.Values 0
     scoreboard players add .removeCanDestroy lg.Values 0
+
+    tellraw @a[predicate=legitiguard:staff_member] "LegitiGuard Reloaded >:)"

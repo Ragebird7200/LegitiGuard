@@ -18,3 +18,14 @@ execute unless score .removeCanPlaceOn lg.Values matches 0 unless score .removeC
     execute if data entity @s[nbt={SelectedItem:{id:"minecraft:crossbow"}}] SelectedItem.components."minecraft:enchantments" run item modify entity @s weapon.mainhand legitiguard:remove_enchantments
     #> Offhand
     execute if data entity @s[nbt={Inventory:[{id:"minecraft:crossbow",Slot:-106b}]}] Inventory[{Slot:-106b}].components."minecraft:enchantments" run item modify entity @s weapon.offhand legitiguard:remove_enchantments
+
+clear @s splash_potion
+clear @s goat_horn
+clear @s lingering_potion
+clear @s potion
+clear @s tipped_arrow
+clear @s tipped_arrow
+clear @s end_crystal
+clear @s tnt
+clear @s tnt_minecart
+clear @s spider_spawn_egg
