@@ -1,7 +1,7 @@
 # This section of the code was made by Ragebird7200, @Ragebird7200 on discord.
-scoreboard players enable @a[scores={lg.CreativeTimer=2..,lg.CreativeTimer=..-2}] gamemode
-gamemode creative @a[scores={gamemode=1,lg.CreativeTimer=2..,lg.CreativeTimer=..-2}]
-gamemode survival @a[scores={gamemode=2,lg.CreativeTimer=2..,lg.CreativeTimer=..-2}]
-gamemode adventure @a[scores={gamemode=3,lg.CreativeTimer=2..,lg.CreativeTimer=..-2}]
-gamemode spectator @a[scores={gamemode=4,lg.CreativeTimer=2..,lg.CreativeTimer=..-2}]
+execute as @a unless score @s lg.CreativeTimer matches -1..1 run scoreboard players enable @s gamemode
+execute as @a unless score @s lg.CreativeTimer matches -1..1 run gamemode creative @s[scores={gamemode=1}]
+execute as @a unless score @s lg.CreativeTimer matches -1..1 run gamemode survival @s[scores={gamemode=2}]
+execute as @a unless score @s lg.CreativeTimer matches -1..1 run gamemode adventure @s[scores={gamemode=3}]
+execute as @a unless score @s lg.CreativeTimer matches -1..1 run gamemode spectator @s[scores={gamemode=4}]
 scoreboard players reset @a[scores={gamemode=1..}] gamemode
